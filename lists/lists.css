@@ -1,0 +1,30 @@
+body{
+    background-color: orange;
+}
+p{
+    background: linear-gradient(to left, blue, yellow, green);
+    font-size: 50px;
+    color: aqua;
+}
+ul, ol{
+    font-size: 24px;
+    color: purple;
+}
+ul.u1 li::marker{
+    color: blue;
+    font-size: 1.2em;
+}
+.u2 li{
+    padding-left: 8px;
+}
+ol{
+    margin-left: 100px;
+}
+@counter-style circled-digits {
+    system: cyclic;
+    symbols: 😀 👻 👽 👾 🤖 🎃 😹 👋 👀 💋;
+    suffix: " ";
+}
+ul.u3{
+    list-style: emojies;
+}
